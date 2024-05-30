@@ -90,8 +90,7 @@ PoseDetector Class
 
 Initialization
 
-```python detector = PoseDetector(mode=False, model_complexity=1, smooth_landmarks=True, enable_segmentation=False, smooth_segmentation=True, detectionCon=0.5, trackCon=0.5)
-```
+```python detector = PoseDetector(mode=False, model_complexity=1, smooth_landmarks=True, enable_segmentation=False, smooth_segmentation=True, detectionCon=0.5, trackCon=0.5)```
 
 Methods
 `find_pose(img, draw=True)`: Processes the image to detect pose landmarks and optionally draws them.
